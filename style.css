@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Jost";
+}
+
+a {
+  text-decoration: none;
+  color: rgba(41, 47, 54, 1);
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  margin-top: 44px;
+}
+.banner > svg {
+  border-radius: 70px;
+}
+
+.projectBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 44px;
+}
+
+.projectBlock__header {
+  font-family: 'DM Serif Display';
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 737px;
+}
+
+.projectBlock__text {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 737px;
+}
+
+.projectBlock__projects {
+  margin-top: 44px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+
+}
+
+.projectBlock__project {
+  flex-basis: calc(50% - 50px);
+}
+
+.projectBlock__project__img {
+  max-width: 100%;
+}
+
+.projectBlock__project__title {
+  font-family: 'DM Serif Display';
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.projectBlock__project__desc {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.projectBlock__project__button {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(244, 240, 236, 1);
+  border: none;
+  border-radius: 50%;
+}
+
+.projectBlock__project__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+  background-color: rgba(244, 240, 236, 1);
+}
+
+.counter__count {
+  padding: 50px;
+  text-align: center;
+}
+
+.counter__count:not(:first-child) {
+  border-left: 1px solid rgba(205, 162, 116, 1);
+}
+
+.counter__countValue {
+  font-family: 'DM Serif Display';
+  font-size: 85px;
+  font-weight: 400;
+  color: rgba(205, 162, 116, 1);
+}
+
+.counter__title {
+  font-size: 22px;
+}
+
+.blogBlock__header {
+  font-family: 'DM Serif Display';
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.blogBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 44px;
+}
+
+.blogBlock__header {
+  font-family: 'DM Serif Display';
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 737px;
+}
+
+.blogBlock__text {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 737px;
+}
+
+.blogBlock__blogs {
+  margin-top: 44px;
+  display: flex;
+  gap: 20px;
+}
+
+.blogBlock__blog {
+  padding: 20px;
+  padding-bottom: 40px;
+  border: 1px solid rgba(231, 231, 231, 1);
+  border-radius: 80px;
+}
+
+.blogBlock__blog__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogBlock__blog__title {
+  margin-top: 10px;
+  font-family: 'DM Serif Display';
+  font-size: 32px;
+  font-weight: 400;
+
+}
+
+.blogBlock__blog__desc {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.blogBlock__blog__button {
+
+  width: 52px;
+  height: 52px;
+  background-color: rgba(244, 240, 236, 1);
+  border: none;
+  border-radius: 50%;
+}
+
+.blogBlock__blog__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid rgba(231, 231, 231, 1);
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 44px;
+}
+
+.footer__pages > span {
+  font-family: 'DM Serif Display';
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.footer__contact > span {
+  font-family: 'DM Serif Display';
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.footer__interno > svg {
+  padding-top: 30px;
+  padding-right: 40px;
+}
+
+.footer__pages{
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  font-size: 22px;
+}
+
+.footer__contact{
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  font-size: 22px;
+}
+
+.footer__contact > p {
+  padding-left: 40px;
+}
+
+.footer__interno {
+  width: 33.3%;
+  font-size: 22px;
+}
